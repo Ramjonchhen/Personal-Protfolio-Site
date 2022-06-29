@@ -1,12 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Ram Jonchhen</title>
-</head>
-<body>
-  <h1> Ram Jonchhen | Portfolio Site </h1>
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <nav>
+          <div id="nav-left">
+            <h3>Ram Jonchhen</h3>
+          </div>
+          <div id="nav-right">
+            
+            <div id="nav-right-menu-flex">
+              <a href="#technologies">Technologies</a>
+              <a href="#about-me">About Me</a>
+              <a href="#projects">Projects</a>
+              <a href="#Intrests">Intrests</a>
+              <a href="#contact">Contact</a>
+              <a
+                href="https://gitconnected.com/ramjonchhen/resume"
+                target="_blank"
+              > Resume
+            </a>
+            </div>
+            
+            </div>
+
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+          </div>
+          <div id="menu-card">
+            <a href="#technologies"><p>Technologies</p></a>
+            <a href="#about-me"><p>About Me</p></a>
+            <a href="#Intrests"><p>Intrests</p></a>
+            <a href="#contact"><p>Contact</p></a>
+            <a
+              href="https://gitconnected.com/ramjonchhen/resume"
+              target="_blank"
+            > <p>Resume</p>
+          </a>
+          <a href="#projects"><button id="menu-card-btn">Projects</button></a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="content">
+
+        <div id="intro-flexbox">
+          <img id="dp" src="./images/pp.jpg" alt="ram-jonchhen-picture" />
+        <div class="intro-text text-and-info" id="i1">
+          <h1>Hi there!</h1>
+          <p>Welcome To My Portfolio Site</p>
+
+          <p>Explorer | Tech Enthusiast | Footaball Lover | Learner</p>
+        </div>
+        </div>
+        
+
+        <div class="text-and-info" id="about-me">
+          <h2>About Me</h2>
+          <p>
+            I am currently a student studying B.Sc.CSIT (6th Semester) in
+            Bhaktapur Multiple Campus. I have keen intrest in coding and
+            technology. What excites me is challenges, whenever i encouter any
+            challenging and brain stroming challenges during coding, it excites
+            me, i get keen on how to find solution for this, how can i solve
+            this problem uniquely. I have a dream of becoming a good software
+            engineer one day and also give something back to the technology
+            community and, one day if possible represent my country in
+            technology fied.
+          </p>
+        </div>
+
+        <div class="text-and-info" id="technologies">
+          <h2>Technologies I am Familiar With</h2>
+
+          <div class="sub-category">
+            <h3>Programming Languages</h3>
+            <div class="sub-category-item-container">
+              <p class="sub-category-item">JavaScript</p>
+              <p class="sub-category-item">C</p>
+              <p class="sub-category-item">C++</p>
+              <p class="sub-category-item">PHP</p>
+            </div>
+          </div>
+
+          <div class="sub-category">
+            <h3>Markup & Style Sheet Languages</h3>
+            <div class="sub-category-item-container">
+              <p class="sub-category-item">HTML</p>
+              <p class="sub-category-item">CSS</p>
+            </div>
+          </div>
+
+          <div class="sub-category">
+            <h3>Database</h3>
+            <div class="sub-category-item-container">
+              <p class="sub-category-item">MySQL</p>
+              <p class="sub-category-item">MongoDB</p>
+            </div>
+          </div>
+
+          <div class="sub-category">
+            <h3>Reverse Proxy</h3>
+            <div class="sub-category-item-container">
+              <p class="sub-category-item">HAProxy</p>
+            </div>
+          </div>
+
+          <div class="sub-category">
+            <h3>Containerization Technology</h3>
+            <div class="sub-category-item-container">
+              <p class="sub-category-item">Docker</p>
+            </div>
+          </div>
+
+          <div class="sub-category">
+            <h3>Web Frameworks And Technology</h3>
+            <div class="sub-category-item-container">
+              <p class="sub-category-item">Node.js</p>
+            </div>
+
+            <div class="sub-category">
+              <h3>Designing Tools</h3>
+              <div class="sub-category-item-container">
+                <p class="sub-category-item">Figma</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-and-info" id="projects">
+          <h2>Projects</h2>
+          
+          <div class="project-container">
+            <div class="project-item">
+              <h3>Chat Application</h3>
+              <p>
+                It Is A Simple Chat Application developed with express.js and
+                socket.io where user can create various chat rooms and join
+                various available chat rooms and then chat with people available
+                on the chart rooms.
+              </p>
+
+              <h4>Technology Used</h4>
+
+              <div class="sub-category">
+                <div class="sub-category-item-container">
+                  <p class="sub-category-item">Express.js</p>
+                  <p class="sub-category-item">Socket.IO</p>
+                </div>
+
+                <div class="project-icon-container">
+                  <div class="project-icon">
+                    <a
+                      href="https://github.com/Ramjonchhen/Andrew-Mead-Socket.io-Chat-App"
+                      target="_blank"
+                    >
+                      <div id="innner-project-content">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                        <p>Github Url</p>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="project-icon">
+                    <a
+                      href="https://chat-app-nepal.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <div id="innner-project-content">
+                        <i class="fa-solid fa-link fa-2x"></i>
+                        <p>Live Preview</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-container">
+            <div class="project-item">
+              <h3>Sorting Algorithm Visualization</h3>
+              <p>
+                Sorting Algorithms: Bubble Sort and Selection Sort are
+                visualized using graphics.h libray in C Programming Language.
+                This was the part of our project for Computer Graphics in 3rd
+                Semester.
+              </p>
+
+              <h4>Technology Used</h4>
+
+              <div class="sub-category">
+                <div class="sub-category-item-container">
+                  <p class="sub-category-item">C Programming Language</p>
+                  <p class="sub-category-item">Graphics.h Library</p>
+                </div>
+
+                <div class="project-icon-container">
+                  <div class="project-icon">
+                    <a
+                      href="https://github.com/Ramjonchhen/Andrew-Mead-Socket.io-Chat-App"
+                      target="_blank"
+                    >
+                      <div id="innner-project-content">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                        <p>Github Url</p>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="project-icon">
+                    <a
+                      href="https://www.youtube.com/watch?v=i9bqeo3JYeg&t=1s"
+                      target="_blank"
+                    >
+                      <div id="innner-project-content">
+                        <i class="fa-brands fa-youtube fa-2x"></i>
+                        <p>YouTube</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-and-info" id="Intrests">
+          <h2>Intrests</h2>
+
+          <div class="sub-category-item-container">
+            <p class="sub-category-item">Competitive Coding</p>
+            <p class="sub-category-item">Software Architecture</p>
+            <p class="sub-category-item">Cloud & DevOps</p>
+            <p class="sub-category-item">Backend Development</p>
+            <p class="sub-category-item">System Design</p>
+            <p class="sub-category-item">Full Stack</p>
+          </div>
+        </div>
+
+        <div class="text-and-info" id="contact">
+          <h2>Contact</h2>
+
+          <div id="contact-flexbox">
+            <div class="contact-container"> 
+              <i class="fa-solid fa-phone"></i>
+            +977-9861287159
+            </div>
+            
+            <div class="contact-container">
+              <i class="fa-solid fa-envelope"></i>
+            jonchhenram@gmail.com
+            </div>
+          </div>
+          
+          
+        </div>
+
+        <a href="https://linktr.ee/ram_jonchhen" target="_blank">
+          <i class="fa-solid fa-link fa-x" id="fixed-link"></i>
+        </a>
+      </div>
+
+      <div class="footer">
+        <p>Thank You For Visting My Site</p>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/2550009809.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
